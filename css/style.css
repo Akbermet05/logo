@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: DM Sans;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(25, 25, 27, 1);
+}
+
+.hero-p {
+  color: rgb(105, 104, 113, 1);
+  font-size: 14px;
+  width: 345px;
+  height: 90px;
+  text-align: start;
+  /* margin: 32px; */
+}
+.container {
+  width: 85%;
+  margin-inline: auto;
+}
+
+#header {
+  padding-block: 30px;
+  position: sticky;
+  top: 0;
+  background-color: #e4c9a5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  color: rgba(105, 104, 113, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header button {
+  width: 200px;
+  height: 50px;
+  background-color: rgba(255, 133, 67, 1);
+}
+
+#hero {
+  padding-block: 50px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-text h1 {
+  line-height: 50px;
+  font-size: 60px;
+  width: 380px;
+  padding: 40px 0;
+}
+
+.hero p {
+  width: 440px;
+  font-size: 16px;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.hero-btn button {
+  width: 200px;
+  height: 50px;
+  background-color: rgba(84, 84, 212, 1);
+}
+
+.arrow-bottom {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(231, 231, 231, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-bottom ion-icon {
+  font-size: 26px;
+}
+
+.hero img {
+  max-width: 570px;
+  width: 100%;
+}
+.hero-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#info {
+  padding-block: 50px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+}
+.hero-text p {
+  width: 400px;
+  font-size: 16px;
+  line-height: 27px;
+}
+.hero-text a {
+  font-size: 16px;
+  color: rgba(84, 84, 212, 1);
+  font-weight: 600;
+}
+
+.info-text p {
+  width: 400px;
+}
+
+.blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+.block img {
+  width: 80px;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+#block {
+  padding: 10px 0;
+}
+.block p {
+  color: #696871;
+}
+
+#plan {
+  padding: 80px;
+}
+.plan {
+  padding-inline: 30px;
+}
+
+.plan-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-top h1 {
+  font-size: 42px;
+  width: 390px;
+}
+
+.plan-btn {
+  background: #fff;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.plan-btn button {
+  width: 150px;
+  height: 55px;
+  background-color: rgba(84, 84, 212, 1);
+}
+
+.plan-btn p {
+  display: flex;
+  align-items: center;
+  background-color: rgba(247, 247, 251, 1);
+  width: 200px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+
+.plan1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.plan1 .box {
+  border-radius: 10px;
+  width: 380px;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 70px;
+  background-color: rgba(248, 248, 248, 1);
+  transition: 1.5s;
+}
+.box:hover {
+  background: rgba(255, 113, 67, 1);
+  transform: scale(1.1);
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+  button {
+    color: #fff;
+    background-color: rgba(159, 57, 25, 1);
+    transition: 1s;
+  }
+}
+.plan1 p {
+  line-height: 30px;
+}
+
+.plan1 h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.box button {
+  width: 230px;
+  height: 50px;
+  border-radius: 4px;
+  color: rgba(84, 84, 212, 1);
+  font-size: 16px;
+}
